@@ -42,9 +42,9 @@ import 'videojs-hotkeys'
 // }
 //
 // Then call
-// <MaxVideoPlayer { ...videoJsOptions } />
+// <VideoPlayer { ...videoJsOptions } />
 */
-export default class MaxVideoPlayer extends React.Component {
+export default class VideoPlayer extends React.Component {
   static propTypes = {
     videoPlaylist: PropTypes.array
   }
@@ -162,4 +162,3 @@ export default class MaxVideoPlayer extends React.Component {
     )
   }
 }
-
